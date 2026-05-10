@@ -1,15 +1,10 @@
+@"
 __pycache__/
 *.pyc
-*.pyo
-lgm-env/
 *.egg-info/
-dist/
-build/
-.eggs/
 *.pt
-*.bin
-data/*.json
-data/*.txt
-models/*/
-!models/.gitkeep
-*.safetensors
+data/sanskrit_corpus.txt
+data/*.json.bak
+lgm-*/
+weights/
+"@ | Set-Content .gitignore
